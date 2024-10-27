@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[submodule]
+	active = .
+[branch "main"]
+	vscode-merge-base = origin/main
+[remote "origin"]
+	url = https://github.com/chartchai-class/se331-project-2-fireworks.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
